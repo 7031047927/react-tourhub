@@ -5,9 +5,96 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+nav{
+  background-color: #87da9ecf;
+  padding: 16px 32px;
+  text-align: end;
+}
+nav a {
+  margin: 16px;
+  text-align: center;
+  text-decoration: none;
+  background: #4f9100;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-family: monospace;
+}
+body .homePage{
+  
+  
+  height:100vh;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    margin: 1em;
+}
+img{
+  height: 12em;
+    width: 18.3em;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.title-name {
+  text-align: center;
+  padding: 1em;
+  color: white;
+  font-weight: bold;
+  font-family: math;
+  text-shadow: 1px 1px greenyellow;
+}
+section#blog{
+  background-image: url(../src/assets/banner.jpg);
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: auto; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+}
+section#team{
+  background-image: url(../src/assets/banner.jpg);
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: auto; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  height: 39.7em;
+}
+
+.carousel .thumbs{
+  display: none;
+}
+p.card-text {
+  font-size: 0.7em;
+  color: white;
+  font-family: revert;
+}
+.card {
+  background-color: rgba(0,0,0,0.2);
+}
+card-title.h5 {
+  font-family: revert;
+  text-shadow: 1px 1px 1px black;
+}
+section#maps {
+  background-color: #0ea7cb52;
+}
+.card-title {
+  color: white;
+  text-shadow: 1px 1px yellow;
 }
